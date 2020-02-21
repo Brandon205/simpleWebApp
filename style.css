@@ -1,3 +1,39 @@
+img {
+    max-width: 250px;
+    max-height: 500px;
+}
+
+h2 {
+    color: #186EAF;
+}
+
+h3 {
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
+    padding: 3px;
+}
+
+span {
+    color: grey;
+    font-size: .9em;
+}
+
+button {
+    display: inline;
+    margin: 5px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background-color: lightgrey;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .no-show {
     display: none;
 }

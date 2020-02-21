@@ -9,42 +9,45 @@
 <body>
     <main class="container">
         <main class="left">
+            <h1>The Great Wall</h1>
             <form method="POST" id="firstQuestion">
-                <h3>How is the entity on the right panel relevant to the query?</h3>
+                <h3>1. How is the entity on the right panel relevant to the query?</h3>
 
-                <input type="radio" name="first" value="100" id="excellent">
+                <input type="radio" name="first" value="100" id="excellent" required>
                 <label for="100">Excellent</label><br>
 
-                <input type="radio" name="first" value="50" checked>
+                <input type="radio" name="first" value="50" required>
                 <label for="50">Good</label><br>
 
-                <input type="radio" name="first" value="0">
+                <input type="radio" name="first" value="0" required>
                 <label for="0">Poor</label><br>
+                
                 <div class="no-show" id="secondQuestion">
-                    <h3>Which parts of the content are relevant to the query?</h3>
+                    <h3>2. Which parts of the content are relevant to the query?</h3>
 
-                    <input type="checkbox" name="second" value="50" id="check1">
+                    <input type="checkbox" name="second" value="50" id="check1" required>
                     <label for="50">Image</label><br>
 
-                    <input type="checkbox" name="second" value="50" id="check2">
+                    <input type="checkbox" name="second" value="50" id="check2" required>
                     <label for="50">Name</label><br>
 
-                    <input type="checkbox" name="second" value="25" id="check3">
+                    <input type="checkbox" name="second" value="25" id="check3" required>
                     <label for="25">Description</label><br>
                 </div>
             </form>
-            <button id="submit">Submit</button>
-            <button id="skip">Skip</button>
+            <div class="buttons">
+                <button id="submit">Submit</button>
+                <button id="skip">Skip</button>
+            </div>
         </main>
         <main class="right">
             <div class="description">
-                <h2>Name: </h2>
-                <p class="inline">The Great Wall</p>
-                <h2>Description: </h2>
+                <h2>Name: <span>The Great Wall</span></h2>
+                <h2>Description:</h2>
                 <p>The Great Wall (Chinese: 长城) is a 2016 action monster film directed by Zhang Yimou, with a screenplay by Carlo Bernard, Doug Miro and Tony Gilroy, from a story by Max Brooks, Edward Zwick and Marshall Herskovitz. It is an American-Chinese co-production starring Matt Damon, Jing Tian, Pedro Pascal, Willem Dafoe, and Andy Lau. The Great Wall is Zhang's first English-language film.[7]
                     Principal photography for the film began on March 30, 2015, in Qingdao, China, and it premiered in Beijing on December 6, 2016. It was released by China Film Group in China on December 16, 2016, and in the United States on February 17, 2017 by Universal Pictures. The film received mixed reviews from critics, who said it "sacrifices great story for great action."[8] Despite grossing over $330 million worldwide and making back the studios investment 2 times over, it was considered a box-office bomb.</p>
             </div>
-            <img src="#" alt="movie poster">
+            <img src="./img/IS05aZfPd5ttIbHrSIBZdIehMd.jpg" alt="movie poster">
         </main>
     </main>
     <script defer src="/script.js"></script>

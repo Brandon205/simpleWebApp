@@ -1,3 +1,17 @@
 .no-show {
     display: none;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.description {
+    max-width: 450px;
+}

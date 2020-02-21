@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="left">
+        <form action="#" method="POST" id="firstQuestion">
+            <h3>How is the entity on the right panel relevant to the query?</h3>
+
+            <input type="radio" name="first" value="100">
+            <label for="100">Excellent</label><br>
+
+            <input type="radio" name="first" value="50">
+            <label for="50">Good</label><br>
+
+            <input type="radio" name="first" value="0">
+            <label for="0">Poor</label><br>
+        </form>
+
+        <form action="#" class="no-show" id="secondQuestion" method="POST">
+            <h3>Which parts of the content are relevant to the query?</h3>
+
+            <input type="checkbox" name="second" value="Image">
+            <label for="Image">Image</label><br>
+
+            <input type="checkbox" name="second" value="Name">
+            <label for="Name">Name</label><br>
+
+            <input type="checkbox" name="second" value="Description">
+            <label for="Description">Description</label><br>
+        </form>
+    </main>
+    <main class="right">
+        <img src="#" alt="movie poster">
+        <p>Description goes here</p>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

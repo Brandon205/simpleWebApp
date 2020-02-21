@@ -25,7 +25,9 @@ document.defaultView.addEventListener('click', () => {
 
 document.getElementById("submit").addEventListener('click', () => {
     event.preventDefault();
-    // Here is where we would finish the validations that haven't yet been validated and then send the data to the API (SendToServer)
+    if (sum > 0 && sum < 225) {
+        // Here is where we would finish the validations that haven't yet been validated and then send the data to the API (SendToServer)
+    }
 });
 
 document.getElementById("skip").addEventListener('click', () => {
